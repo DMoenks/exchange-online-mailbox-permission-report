@@ -10,8 +10,9 @@
    1. Create self-signed certificate
    2. Grant read access for automation account's managed identity to certificate
 3. Create Azure AD application
-   1. Grant Microsoft Graph application permissions _Exchange.ManageAsApp_
-   2. Link certificate from key vault
+   1. Grant application permission _Exchange.ManageAsApp_
+   2. Grant Azure AD role _Exchange Administrator_
+   3. Link certificate from key vault
 
 ## Links
 - [Azure automation runbook](https://docs.microsoft.com/en-us/azure/automation/quickstarts/create-account-portal)
